@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MobileApplication"
         tools:targetApi="31">
         <activity
+            android:name=".developerinformationscreen"
+            android:exported="false" />
+        <activity
+            android:name=".userinformationscreen"
+            android:exported="false" />
+        <activity
+            android:name=".newsdetailsscreen"
+            android:exported="false" />
+        <activity
+            android:name=".newsscreen"
+            android:exported="false" />
+        <activity
+            android:name=".signupscreen"
+            android:exported="false" />
+        <activity
+            android:name=".signinscreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
