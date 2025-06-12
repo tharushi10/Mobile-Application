@@ -44,7 +44,7 @@ public class userinformationscreen extends AppCompatActivity {
         findViewById(R.id.btnLogin).setOnClickListener(v -> showEditInfoDialog());
 
         // Sign out button listener
-        Button signOutButton = findViewById(R.id.btn_sign_out);
+        Button signOutButton = findViewById(R.id.btn_signout);
         if (signOutButton != null) {
             signOutButton.setOnClickListener(v -> showSignOutDialog());
         }
